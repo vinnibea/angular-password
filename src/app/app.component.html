@@ -1,0 +1,31 @@
+<div class='wrapper'>
+  <input class='input' [(ngModel)]="title" placeholder="Type your password here" type="password" />
+  <div
+    [ngClass]="{
+      'password': true,
+      'password-short': isPasswordShort(),
+      'password-weak': isPasswordWeak(),
+      'password-medium': isPasswordMedium(),
+      'password-strong': isPasswordStrong()
+    }"
+  >
+  </div>
+
+  <div
+    [ngClass]="{
+      'password': true,
+      'password-short': isPasswordShort(),
+      'password-medium': isPasswordMedium(),
+      'password-strong': isPasswordStrong()
+    }"
+  ></div>
+
+  <div
+    [ngClass]="{
+      'password': true,
+      'password-short': isPasswordShort(),
+      'password-strong': isPasswordStrong()
+    }"
+  ></div>
+</div>
+
