@@ -5,7 +5,7 @@ import {
   weakPasswordRegx as weak,
   mediumPasswordRegx as medium,
   strongRegExp as strong,
-} from '../../__helpers';
+} from '../../utils/__helpers';
 
 @Component({
   selector: 'app-input',
