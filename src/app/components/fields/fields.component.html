@@ -1,0 +1,26 @@
+<div
+  [ngClass]="{
+    password: true,
+    'password-short': password?.hasError('minlength'),
+    'password-weak': password?.hasError('weak'),
+    'password-medium': password?.hasError('medium'),
+    'password-strong': password?.hasError('strong')
+  }"
+></div>
+
+<div
+  [ngClass]="{
+    password: true,
+    'password-short': password?.hasError('minlength'),
+    'password-medium': password?.hasError('medium'),
+    'password-strong': password?.hasError('strong')
+  }"
+></div>
+
+<div
+  [ngClass]="{
+    password: true,
+    'password-short': password?.hasError('minlength'),
+    'password-strong': password?.hasError('strong')
+  }"
+></div>
