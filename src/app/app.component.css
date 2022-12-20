@@ -1,36 +1,8 @@
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 400px;
   min-width: 300px;
-}
-.password {
-  padding: 5px;
-  margin-top: 20px;
-  height: 50px;
-  border-radius: 5px;
-  background-color: grey;
-  box-shadow: 2px 2px 2px grey;
-}
-
-.password-short {
-  background-color: rgb(165, 70, 70);
-}
-.password-weak {
-  background-color: rgb(165, 70, 70);
-}
-.password-medium {
-  background-color: yellow;
-}
-.password-strong {
-  background-color: green;
-}
-
-.input {
-  border: none;
-  outline: none;
-  background-color: beige;
-  padding: 5px;
-  border-radius: 3px;
+  margin: auto;
 }

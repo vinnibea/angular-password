@@ -1,4 +1,6 @@
 {
+  "private": true,
+  "homepage": "https://vinnibea.github.io/angular-password/",
   "dependencies": {
     "@angular/animations": "^15.0.0",
     "@angular/common": "^15.0.0",
@@ -13,6 +15,10 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "predeploy": "ng build"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.4",
